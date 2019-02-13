@@ -15,8 +15,12 @@ import store from './store'
 
 Vue.use(VueSwal)
 Vue.use(VueAxios, axios.create({
+<<<<<<< HEAD
   baseURL: 'http://www.nice-kingdom.com',
   withCredentials: true,
+=======
+  baseURL: '/',
+>>>>>>> 6eb33ed64eea2efc5fcac6a8d4e28ac3e890e4e8
   transformRequest: [function (data) {
     return qs.stringify(data)
   }],
